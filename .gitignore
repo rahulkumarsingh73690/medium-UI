@@ -39,7 +39,7 @@ proguard/
 
 # Logs and databases #
 ######################
-log/
+logs/*.log
 *.log
 *.sql
 *.sqlite
