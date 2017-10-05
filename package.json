@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start-prod": "NODE_ENV=production forever -o ./log/debug.log -e ./log/errors.log --minUptime 1000 --spinSleepTime 1000 -w start app.js",
-    "restart-prod": "NODE_ENV=production forever -o ./log/debug.log -e ./log/errors.log --minUptime 1000 --spinSleepTime 1000 -w restart app.js",
+    "start-prod": "NODE_ENV=production forever -o ./logs/debug.log -e ./logs/errors.log --minUptime 1000 --spinSleepTime 1000 -w start app.js",
+    "restart-prod": "NODE_ENV=production forever -o ./logs/debug.log -e ./logs/errors.log --minUptime 1000 --spinSleepTime 1000 -w restart app.js",
     "stop-prod": "NODE_ENV=production forever stop app.js",
-    "start-dev": "NODE_ENV=development forever -o ./log/debug.log -e ./log/errors.log --minUptime 1000 --spinSleepTime 1000 -w start app.js",
-    "restart-dev": "NODE_ENV=development forever -o ./log/debug.log -e ./log/errors.log --minUptime 1000 --spinSleepTime 1000 -w restart app.js",
+    "start-dev": "NODE_ENV=development forever -o ./logs/debug.log -e ./logs/errors.log --minUptime 1000 --spinSleepTime 1000 -w start app.js",
+    "restart-dev": "NODE_ENV=development forever -o ./logs/debug.log -e ./logs/errors.log --minUptime 1000 --spinSleepTime 1000 -w restart app.js",
     "stop-dev": "NODE_ENV=development forever stop app.js",
     "kill-node": "pkill node"
   },
