@@ -1,23 +1,23 @@
 [submodule "themes/default"]
 	path = themes/default
-	url = git@github.com:nodepressjs/nodepressjs-theme-default.git
+	url = git://github.com/nodepressjs/nodepressjs-theme-default.git
 
 [submodule "themes/admin"]
 	path = themes/admin
-	url = git@github.com:nodepressjs/nodepressjs-theme-admin.git
+	url = git://github.com/nodepressjs/nodepressjs-theme-admin.git
 
 [submodule "wiki"]
 	path = wiki
-	url = git@github.com:nodepressjs/nodepressjs-wiki.git
+	url = git://github.com/nodepressjs/nodepressjs-wiki.git
 
 [submodule "translations/english"]
 	path = translations/english
-	url = git@github.com:nodepressjs/nodepressjs-translations-english.git
+	url = git://github.com/nodepressjs/nodepressjs-translations-english.git
 
 [submodule "translations/polish"]
 	path = translations/polish
-	url = git@github.com:nodepressjs/nodepressjs-translations-polish.git
+	url = git://github.com/nodepressjs/nodepressjs-translations-polish.git
 
 [submodule "translations/italian"]
 	path = translations/italian
-	url = git@github.com:nodepressjs/nodepressjs-translations-italian.git
+	url = git://github.com/nodepressjs/nodepressjs-translations-italian.git
