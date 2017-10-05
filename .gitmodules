@@ -12,12 +12,12 @@
 
 [submodule "translations/english"]
 	path = translations/english
-	url = git://github.com/nodepressjs/nodepressjs-translations-english.git
+	url = git@github.com:nodepressjs/nodepressjs-translation-english.git
 
 [submodule "translations/polish"]
 	path = translations/polish
-	url = git://github.com/nodepressjs/nodepressjs-translations-polish.git
+	url = git@github.com:nodepressjs/nodepressjs-translation-polish.git
 
 [submodule "translations/italian"]
 	path = translations/italian
-	url = git://github.com/nodepressjs/nodepressjs-translations-italian.git
+	url = git@github.com:nodepressjs/nodepressjs-translation-italian.git
